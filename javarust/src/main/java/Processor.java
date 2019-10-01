@@ -9,12 +9,13 @@ public class Processor {
 
         int processInt(int value);
         float processFloat(float value);
-        int[] processVecInt(int[] value, int size);
+        int vecLen(int[] value);
     }
 
     public static void main(String[] args) {
         integer();
         doubles();
+        vec();
     }
 
     public static int processIntJava(int value) {
@@ -47,5 +48,23 @@ public class Processor {
         System.out.println("java: 10 " + processFloatJava(10));
         long now_java = System.currentTimeMillis();
         System.out.println("Seconds elapsed: " + (now_java-before_java)/1000F + ".\n\n" );
+    }
+
+    public static int processVecLen(int[] values) {
+        return values.length;
+    }
+
+    public static void vec() {
+        int[] values = {1, 2, 3, 4, 5};
+        long before_rust = System.currentTimeMillis();
+        System.out.println("rust len: " + CProcessor.INSTANCE.vecLen(values));
+        long now_rust = System.currentTimeMillis();
+        System.out.println("Seconds elapsed: " + (now_rust-before_rust)/1000F + "." );
+
+        long before_java = System.currentTimeMillis();
+        System.out.println("java len: " + processVecLen(values));
+        long now_java = System.currentTimeMillis();
+        System.out.println("Seconds elapsed: " + (now_java-before_java)/1000F + ".\n\n" );
+
     }
 }
