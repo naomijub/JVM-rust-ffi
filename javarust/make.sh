@@ -1,0 +1,1 @@
+rustc processor.rs && mvn compile && mvn exec:java -Dexec.mainClass="javarust.Processor"

@@ -33,3 +33,24 @@ pub unsafe extern "C" fn vecSumEven(vec: *const c_int, size: i32) -> c_int {
     let v =  std::slice::from_raw_parts(vec, size as usize);
     v.iter().filter(|x| *x % &2 == 0).sum::<i32>() as c_int
 }
+
+#[repr(C)]
+#[no_mangle]
+#[derive(Debug)]
+pub struct Value {
+    a: i32,
+    b: i32,
+    c: i32,
+}
+
+#[no_mangle]
+#[allow(non_snake_case)]
+pub unsafe extern "C" fn vecMean(vec: *const Value, size: i32) -> f32 {
+    if vec.is_null() {
+        return 0f32;
+    }
+
+    let v =  std::slice::from_raw_parts(vec, size as usize);
+
+    (*v).iter().map(|x| (x.a + x.b + x.c) as f32 / 3f32).sum::<f32>() / size as f32
+}
