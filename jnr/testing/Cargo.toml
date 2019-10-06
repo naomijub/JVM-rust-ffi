@@ -1,0 +1,12 @@
+[package]
+name = "testing"
+version = "0.1.0"
+authors = ["naomijub <jnaomi@thoughtworks.com>"]
+edition = "2018"
+
+[lib]
+name = "hellow"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
