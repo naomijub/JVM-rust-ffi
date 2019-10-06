@@ -1,0 +1,24 @@
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-Wall" "-Wextra" "-o" "/Users/julianaomiboeira/Documents/ffi/j4rs/rust/target/debug/build/libloading-401e3dbf91ba3afe/out/src/os/unix/global_static.o" "-c" "src/os/unix/global_static.c"
+exit code: 0
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "crs" "/Users/julianaomiboeira/Documents/ffi/j4rs/rust/target/debug/build/libloading-401e3dbf91ba3afe/out/libglobal_static.a" "/Users/julianaomiboeira/Documents/ffi/j4rs/rust/target/debug/build/libloading-401e3dbf91ba3afe/out/src/os/unix/global_static.o"
+exit code: 0
+cargo:rustc-link-lib=static=global_static
+cargo:rustc-link-search=native=/Users/julianaomiboeira/Documents/ffi/j4rs/rust/target/debug/build/libloading-401e3dbf91ba3afe/out

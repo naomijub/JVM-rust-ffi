@@ -1,0 +1,3 @@
+Some("/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/server")
+cargo:rustc-link-search=native=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/server
+cargo:rustc-link-lib=dylib=jvm

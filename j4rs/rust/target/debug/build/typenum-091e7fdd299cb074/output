@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/julianaomiboeira/Documents/ffi/j4rs/rust/target/debug/build/typenum-091e7fdd299cb074/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/julianaomiboeira/Documents/ffi/j4rs/rust/target/debug/build/typenum-091e7fdd299cb074/out/op.rs
