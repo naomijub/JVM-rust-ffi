@@ -1,0 +1,2 @@
+cargo:rustc-env=DYLD_LIBRARY_PATH=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/server:
+cargo:rustc-link-search=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/server

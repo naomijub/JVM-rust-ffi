@@ -1,0 +1,10 @@
+/Users/julianaomiboeira/Documents/ffi/j4rs/edn/target/debug/deps/error_chain-6e2bab7ca20657df.rmeta: /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/lib.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/impl_error_chain_kind.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/error_chain.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/quick_main.rs
+
+/Users/julianaomiboeira/Documents/ffi/j4rs/edn/target/debug/deps/liberror_chain-6e2bab7ca20657df.rlib: /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/lib.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/impl_error_chain_kind.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/error_chain.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/quick_main.rs
+
+/Users/julianaomiboeira/Documents/ffi/j4rs/edn/target/debug/deps/error_chain-6e2bab7ca20657df.d: /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/lib.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/impl_error_chain_kind.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/error_chain.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/quick_main.rs
+
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/lib.rs:
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/impl_error_chain_kind.rs:
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/error_chain.rs:
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.11.0/src/quick_main.rs:

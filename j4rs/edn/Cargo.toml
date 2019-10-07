@@ -1,0 +1,21 @@
+[package]
+name = "edn"
+version = "0.1.0"
+authors = ["naomijub <jnaomi@thoughtworks.com>"]
+edition = "2018"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+j4rs = "*"
+jni = { version = "0.10.1", git = "https://github.com/alexander-irbis/jni-rs", branch = "clone-jnienv", features = ["invocation"] }
+chrono = "0.4"
+
+[build-dependencies]
+walkdir = "*"
+
+[features]
+libjvm = []
+resource-manager = []
+invocation = ["jni/invocation"]

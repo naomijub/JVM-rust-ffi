@@ -1,0 +1,11 @@
+/Users/julianaomiboeira/Documents/ffi/j4rs/edn/target/debug/deps/time-286db8d1b987624a.rmeta: /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/lib.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/display.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/duration.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/parse.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/sys.rs
+
+/Users/julianaomiboeira/Documents/ffi/j4rs/edn/target/debug/deps/libtime-286db8d1b987624a.rlib: /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/lib.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/display.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/duration.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/parse.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/sys.rs
+
+/Users/julianaomiboeira/Documents/ffi/j4rs/edn/target/debug/deps/time-286db8d1b987624a.d: /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/lib.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/display.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/duration.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/parse.rs /Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/sys.rs
+
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/lib.rs:
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/display.rs:
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/duration.rs:
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/parse.rs:
+/Users/julianaomiboeira/.cargo/registry/src/github.com-1ecc6299db9ec823/time-0.1.42/src/sys.rs:

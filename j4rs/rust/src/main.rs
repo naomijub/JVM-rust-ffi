@@ -7,7 +7,7 @@ use chrono::Duration;
 fn main() {
     // Create a JVM
     let jvm = JvmBuilder::new().build().unwrap();
-    
+
     // Create a java.lang.String instance
     let string_instance = jvm.create_instance(
         "java.lang.String",
