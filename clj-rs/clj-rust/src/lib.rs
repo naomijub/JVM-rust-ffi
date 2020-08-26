@@ -18,18 +18,25 @@ pub extern "C" fn add(a: usize, b: usize) -> usize {
     a + b
 }
 
-// #[derive(Debug, Deserialize)]
-// struct Person {
-//     first_name: String,
-//     last_name: String,
-//     age: usize,
-// }
+#[derive(Debug, Deserialize)]
+struct Person {
+    first_name: String,
+    last_name: String,
+    age: usize,
+}
 
-// #[no_mangle]
-// pub extern "C" fn otavio(edn: *mut c_char) -> *const c_char {
-//     let c_string = CString::from_raw(edn);
-//     let person: Person = edn_rs::from_str(&edn).expect("bad from_str");
-// }
+impl Person {
+    fn text(&self) -> String {
+        format!("{} {} is {} years old", self.first_name, self.last_name, self.age)
+    }
+}
+
+#[no_mangle]
+pub extern "C" fn person_txt(edn: *const c_char) -> *const c_char {
+    let edn_str = to_string(edn);
+    let person: Person = edn_rs::from_str(&edn_str).expect("bad from_str");
+    to_c_char(person.text())
+}
 
 
 fn to_string(pointer: *const c_char) -> String {
